@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Build App
+          name: Build App v3
           command: |
                 ci/build-app.sh
       - store_test_results:
